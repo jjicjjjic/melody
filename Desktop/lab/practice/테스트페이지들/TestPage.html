@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <style>
+        .card-group{
+            margin-top: 100px;
+            margin-left:150px;
+            margin-right:150px;
+            margin-bottom:150px;
+        }
+        .card{
+            background-color:aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#" onClick="location.href='MainPage.html'">MUSIC TEST</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" onClick="location.href='MainPage.html'">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#" onClick="location.href='TestPage.html'">
+                                Test
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" onClick="location.href='ResultPage.html'">Result</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" onClick="location.href='LoginPage.html'">Profile</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#" onClick="location.href='LoginPage.html'"> hello, {{name}}!</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <form class="card-group">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">음계</h5>
+                        <p class="card-text">(0/13)</p>
+                        <a href="#" class="btn btn-primary" onClick="location.href='PitchTest.html'">시작</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">멜로디(가락)</h5>
+                        <p class="card-text">(0/13)</p>
+                        <a href="#" class="btn btn-primary" onClick="location.href='MelodyTest.html'">시작</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">리듬</h5>
+                        <p class="card-text">(0/13)</p>
+                        <a href="#" class="btn btn-primary" onClick="location.href='RhythmTest.html'">시작</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">박자</h5>
+                        <p class="card-text">(0/13)</p>
+                        <a href="#" class="btn btn-primary" onClick="location.href='박자Test.html'">시작</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">장단</h5>
+                        <p class="card-text">(0/13)</p>
+                        <a href="#" class="btn btn-primary" onClick="location.href='장단Test.html'">시작</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">빠르기(템포)</h5>
+                        <p class="card-text">(0/13)</p>
+                        <a href="#" class="btn btn-primary" onClick="location.href='TempoTest.html'">시작</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">화성</h5>
+                        <p class="card-text">(0/13)</p>
+                        <a href="#" class="btn btn-primary" onClick="location.href='HarmonyTest.html'">시작</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">음색</h5>
+                        <p class="card-text">(0/13)</p>
+                        <a href="#" class="btn btn-primary" onClick="location.href='TimbreTest.html'">시작</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">셈여림</h5>
+                        <p class="card-text">(0/13)</p>
+                        <a href="#" class="btn btn-primary" onClick="location.href='셈여림Test.html'">시작</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>   
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
